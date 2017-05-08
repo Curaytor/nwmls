@@ -172,6 +172,11 @@ class Nwmls::CommercialListing < Nwmls::Listing
     NWESHRating
     ROFR
     Auction
+    LSZS
+    EffectiveYearBuilt
+    EffectiveYearBuiltSource
+    OFF
+    SaleType
   )
 
   acts_as_nwmls_listing :property_type => 'COMI', :attribute_mappings => RAW_ATTRIBUTE_NAMES
